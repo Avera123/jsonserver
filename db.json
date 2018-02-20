@@ -14,5 +14,22 @@
   ],
   "perfil": {
     "nombre": "SUPER"
-  }
+  },
+  "casos": [
+    { "id": 1, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 2, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 3, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 4, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 5, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 6, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false},
+    { "id": 7, "fecha": "17-12-05", "asunto":"Nomina (8 horas en el dia 31)", "cliente":"SOS", "correo":"sos@sos.com", "contacto":"Contacto SOS", "telefono":"3045599915", "categoria":"cat 1", "descripcion":"Basico Liquidado (BL). Pendiente corregir las 8 horas del dia 31.",
+      "prioridad":"ALTA", "gestiona":"Sebastian", "atendido":false,"solucionado":false}
+  ]
+
 }
