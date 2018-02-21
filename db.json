@@ -4,6 +4,17 @@
     { "id": 2, "titulo": "titulo ticket 2" },
     { "id": 3, "titulo": "titulo ticket 3" }
   ],
+  "comentarios": [
+    { "id": 1, "titulo": "Titulo Comentario", "cuerpo": "Cuerpo del Ticket 1" },
+    { "id": 2, "titulo": "Titulo Comentario", "cuerpo": "Cuerpo del Ticket 2" }
+  ],
+  "usuarios": [
+    { "id": 1, "nombre": "Alejandro Vera Carrasquilla", "rol": "SuperAdmin" },
+    { "id": 2, "nombre": "Yeison Marulanda", "rol": "Super" }
+  ],
+  "perfil": {
+    "nombre": "SUPER"
+  },
   "casos":[
     {
       "codigo_caso_pk": 1,
@@ -42,6 +53,391 @@
       }
     },{
       "codigo_caso_pk": 2,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 3,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 4,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 5,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 6,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 7,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 8,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 9,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 10,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 11,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 12,
+      "asunto": "ASDF",
+      "correo": "ASDF",
+      "contacto": "ASDF",
+      "telefono": "134513",
+      "extension": "23",
+      "descripcion": "ASDFAX",
+      "fecha_registro": "2018-02-21T08:44:30-05:00",
+      "codigo_categoria_caso_fk": "CAT1",
+      "codigo_prioridad_fk": "ALT",
+      "estado_atendido": false,
+      "estado_solucionado": false,
+      "codigo_cliente_fk": 1,
+      "cliente_rel": {
+        "codigo_cliente_pk": 1,
+        "nit": "315531556",
+        "razon_social": "RAZON SOCIAL CLIENTE1",
+        "nombre_comercial": "RAZON SOCIAL CLIENTE1",
+        "llamadas_cliente_rel": [],
+        "casos_cliente_rel": []
+      },
+      "categoria_rel": {
+        "codigo_categoria_caso_pk": "CAT1",
+        "nombre": "CATEGORIA 1",
+        "descripcion": "DESCRIPCION CATEGORIA",
+        "color": "#EFEFEF",
+        "casos_categoria_rel": []
+      },
+      "prioridad_rel": {
+        "codigo_prioridad_pk": "ALT",
+        "nombre": "ALTA",
+        "color": "RED",
+        "casos_prioridad_rel": []
+      }
+    },{
+      "codigo_caso_pk": 13,
       "asunto": "ASDF",
       "correo": "ASDF",
       "contacto": "ASDF",
