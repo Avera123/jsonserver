@@ -4,17 +4,6 @@
     { "id": 2, "titulo": "titulo ticket 2" },
     { "id": 3, "titulo": "titulo ticket 3" }
   ],
-  "comentarios": [
-    { "id": 1, "titulo": "Titulo Comentario", "cuerpo": "Cuerpo del Ticket 1" },
-    { "id": 2, "titulo": "Titulo Comentario", "cuerpo": "Cuerpo del Ticket 2" }
-  ],
-  "usuarios": [
-    { "id": 1, "nombre": "Alejandro Vera Carrasquilla", "rol": "SuperAdmin" },
-    { "id": 2, "nombre": "Yeison Marulanda", "rol": "Super" }
-  ],
-  "perfil": {
-    "nombre": "SUPER"
-  },
   "casos":[
     {
       "codigo_caso_pk": 1,
